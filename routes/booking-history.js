@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var moment = require('moment')
 var BookingHistory = require('../model/BookingHistory')
 var User = require('../model/User')
 var BusDetails = require('../model/BusDetails')

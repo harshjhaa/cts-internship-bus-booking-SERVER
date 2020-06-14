@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const BookingHistorySchema = new mongoose.Schema({
     userId: { type: 'string', required: true },
-    busId: { type: 'string', required: true },
+    // busId: { type: 'string', required: true },
     transactionId: { type: 'string', required: true },
     departLoc: { type: 'string', required: true },
     arriveLoc: { type: 'string', required: true },

@@ -1,7 +1,8 @@
 var express = require('express');
 var logger = require('morgan');
-const bodyParser = require('body-parser');
+var cors = require('cors');
 var passport = require('passport')
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 var indexRouter = require('./routes/index');

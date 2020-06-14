@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const keys = require('../config/keys')
 const passport = require('../config/passport')
-const Users = require('../models/User')
+const Users = require('../model/User')
 const validator = require('../validators/validators')
 
 const verifyToken = (req, res, next) => {
